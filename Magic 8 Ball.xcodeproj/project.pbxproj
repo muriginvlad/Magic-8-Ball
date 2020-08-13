@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		863E2C8424E5503900C73878 /* Screenshots.png in Resources */ = {isa = PBXBuildFile; fileRef = 863E2C8224E5503900C73878 /* Screenshots.png */; };
+		863E2C8524E5503900C73878 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 863E2C8324E5503900C73878 /* README.md */; };
 		867A439022C3E53A000E7B22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867A438F22C3E53A000E7B22 /* AppDelegate.swift */; };
 		867A439222C3E53A000E7B22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867A439122C3E53A000E7B22 /* ViewController.swift */; };
 		867A439522C3E53A000E7B22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 867A439322C3E53A000E7B22 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		863E2C8224E5503900C73878 /* Screenshots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshots.png; sourceTree = "<group>"; };
+		863E2C8324E5503900C73878 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		867A438C22C3E53A000E7B22 /* Magic 8 Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic 8 Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		867A438F22C3E53A000E7B22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		867A439122C3E53A000E7B22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,9 +39,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		863E2C8124E5503900C73878 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				863E2C8224E5503900C73878 /* Screenshots.png */,
+			);
+			path = Screenshots;
+			sourceTree = SOURCE_ROOT;
+		};
 		867A438322C3E53A000E7B22 = {
 			isa = PBXGroup;
 			children = (
+				863E2C8324E5503900C73878 /* README.md */,
+				863E2C8124E5503900C73878 /* Screenshots */,
 				867A438E22C3E53A000E7B22 /* Magic 8 Ball */,
 				867A438D22C3E53A000E7B22 /* Products */,
 			);
@@ -124,7 +138,9 @@
 			files = (
 				867A439A22C3E53C000E7B22 /* LaunchScreen.storyboard in Resources */,
 				867A439722C3E53C000E7B22 /* Assets.xcassets in Resources */,
+				863E2C8524E5503900C73878 /* README.md in Resources */,
 				867A439522C3E53A000E7B22 /* Main.storyboard in Resources */,
+				863E2C8424E5503900C73878 /* Screenshots.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
